@@ -9,6 +9,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { GetStartedComponent } from './pages/get-started/get-started.component';
+import { LoginComponent } from './pages/login/login.component';
+import { RegisterComponent } from './pages/register/register.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { GetStartedComponent } from './pages/get-started/get-started.component';
     NavComponent,
     LandingComponent,
     HomeComponent,
-    GetStartedComponent
+    GetStartedComponent,
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
